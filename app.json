@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-demo",
-    "slug": "react-native-demo",
+    "name": "react-native-jwt-boilerplate",
+    "slug": "react-native-jwt-boilerplate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.imvishvaraj.reactnativejwtboilerplate"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fd8f7923-7d54-40d3-bf8d-d95b143375a6"
+      }
     }
   }
 }

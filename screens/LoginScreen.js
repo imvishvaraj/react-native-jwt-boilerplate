@@ -10,7 +10,7 @@ const LoginScreen = ({ navigation }) => {
 
   const login = async () => {
     try {
-      let response = await fetch("http://localhost:8000/users/login/", {
+      let response = await fetch("http://drf-auth-demo.vishvaraj.me/users/login/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
