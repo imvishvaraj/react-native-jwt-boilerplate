@@ -14,7 +14,7 @@ const UserInfoScreen = () => {
       setIsLoading(true);
       try {
         const access_token = await AsyncStorage.getItem('access_token');
-        const response = await fetch('http://localhost:8000/users/me/', {
+        const response = await fetch('http://drf-auth-demo.vishvaraj.me/users/me/', {
           method: 'GET',
           headers: {
             'Authorization': `Bearer ${access_token}`,
